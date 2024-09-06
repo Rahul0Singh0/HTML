@@ -13,3 +13,14 @@ section element: The section element is used to define sections in a document, s
 To create an unordered list of items, you can use the ul element.
 The figure element represents self-contained content and will allow you to associate an image with a caption.
 A figure caption (figcaption) element is used to add a caption to describe the image contained within the figure element.
+The strong element is used to indicate that some text is of strong importance or urgent.
+
+The input element allows you several ways to collect data from a web form. Like img elements, input elements are a void element and do not need closing tags.
+There are many kinds of inputs you can create using the type attribute. You can easily create a password field, reset button, or a control to let users select a file from their computer.
+you must give the text field a name attribute and assign it a value to represent the data being submitted.
+Placeholder text is used to give people a hint about what kind of information to enter into an input.
+To prevent a user from submitting your form when required information is missing, you need to add the required attribute to an input element.
+
+The button element is used to create a clickable button.
+You can use radio buttons for questions where you want only one answer out of multiple options.
+    example: <input type="radio"> cat
