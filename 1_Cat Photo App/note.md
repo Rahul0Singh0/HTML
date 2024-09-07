@@ -61,3 +61,6 @@ the form data will include indoor-outdoor=on, which is not useful when you have 
 
 ## fieldset element:
    The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line.
+
+## legend:
+   The <legend> tag defines a caption for the <fieldset> element.
