@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <header>
+        <h1>This is a Student Registration Form Project using simply HTML.</h1>
+    </header>
+    <hr>
+    <br>
+
+    <main>
+        <h2><strong>Student Registration Form</strong></h2>
+        <p>Please fill out the form below to register.</p>
+        <!-- POST Form -->
+        <form action="https://example.com/submit" method="post">
+            <!-- Personal Information -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" required>
+                <br><br>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name">
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" required>
+                <br><br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">female
+                <input type="radio" name="gender" value="other">Other
+                <br><br>
+                <!-- <p></p> Empty paragraph adds space -->
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" required>
+                <br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" required>
+                <br><br>
+            </fieldset>
+            <hr>
+            <!-- Address Information -->
+            <fieldset>
+                <legend>Address Information</legend>
+                <label for="address">Address:</label> <br>
+                <textarea name="address" placeholder="Address....." rows="5" cols="50"></textarea>
+                <br><br>
+
+                <label for="city">City:</label>
+                <input type="text" name="city" required>
+                <br><br>
+
+                <label for="state">State:</label>
+                <input type="text" name="state" required>
+                <br><br>
+
+                <label for="zip-code">ZIP Code:</label>
+                <input type="text" name="zip-code" required>
+                <br><br>
+            </fieldset>
+            <hr>
+            <!-- Educational Information -->
+            <fieldset>
+                <legend>Educational Information</legend>
+
+                <label for="high-school">High School:</label>
+                <input type="text" name="high-school" required>
+                <br><br>
+
+                <label for="gpa">GPA:</label>
+                <input type="text" name="gpa" required>
+                <br><br>
+
+                <label for="intended">Intended Major:</label>
+                <input type="text" name="intended">
+                <br><br>
+
+                <label for="year">Year of Graduation:</label>
+                <input type="number" min="1900" max="2100" name="year" required>
+                <br><br>
+            </fieldset>
+            <hr>
+            <!-- Additional Information -->
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="interests-hobbies">Interests and Hobbies:</label> <br>
+                <textarea name="interests-hobbies placeholder="" rows="5" cols="50"></textarea>
+                <br><br>
+
+                <label for="comments">Additional Comments:</label> <br>
+                <textarea name="comments" placeholder="" rows="5" cols="50"></textarea>
+                <br><br>
+            </fieldset>
+            <hr>
+            <button>Register</button>
+        </form>
+    </main>
+    <hr>
+
+    <footer>
+        <p>&copy; Student Registration. All rights reserved.</p>
+    </footer>
+</body>
+</html>
